@@ -197,16 +197,6 @@
             name="Participant10"
             placeholder="Name of the Participant"
           />
-          <input
-            type="text"
-            name="Participant11"
-            placeholder="Name of the Participant"
-          />
-          <input
-            type="text"
-            name="Participant12"
-            placeholder="Name of the Participant"
-          />
           <input type="submit" value="REGISTER" name="submit" />
         </form>
         <br />
@@ -218,7 +208,7 @@
         e.preventDefault();
         let data = new FormData(form);
         fetch(
-          "https://script.google.com/macros/s/AKfycbwiaF8ajE8nH-apJJC4gO7QvDLAIi8joCPVFKniNm-8Cdlacjv1aT5Ywx3iy80gaTko/exec",
+          "https://script.google.com/macros/s/AKfycbxZV99iLj36ADNmhK8WrnR5nDw0WCYR2rfFgBe8ZUdf87B5DhzN9JtEh1WkfNhlBA4p/exec",
           {
             method: "POST",
             body: data,
