@@ -854,15 +854,15 @@ footer {
   margin-bottom: 10px;
 }
 
-/* .footer_left iframe {
-  width: 500px;
-  height: 400px;
-} */
+.footer_left iframe {
+  width: 300px;
+  height: 200px;
+}
 
 .footer_right h4 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 32px;
-  margin-top: 40px;
+  font-size: 24px;
+  /* margin-top: 40px; */
   text-align: left;
   margin-bottom: 20px;
 }
@@ -878,8 +878,8 @@ footer {
 .footer_right a {
   font-family: "Source Sans Pro", sans-serif;
   color: #fff;
-  font-size: 24px;
-  margin-bottom: 16px;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
 .footer_right a:hover {
